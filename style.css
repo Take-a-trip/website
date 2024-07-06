@@ -1186,3 +1186,13 @@ footer .footer .copyright a {
 }
 
 /* Tablet and larger styles */
+
+@media (max-width: 1509px){
+    .featured .gallery .box2 img,
+    .featured .gallery .box3 img,
+    .featured .gallery .box4 img {
+        height: 490px;
+        width: 100%;
+        object-fit: fill;
+    }
+}
